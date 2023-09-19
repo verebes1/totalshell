@@ -2,13 +2,13 @@
 platform=$(uname)
 
 if [[ $platform == 'Linux' ]]; then
-   echo "Linux detected";
-  # sudo apt install -y zsh
+  echo "Linux detected";
+  sudo apt install -y zsh
 elif [[ $platform == 'Darwin' ]]; then
    echo "macOS detected";
 fi
 
-chsh -s /bin/zsh
+chsh -s $(which zsh)
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
