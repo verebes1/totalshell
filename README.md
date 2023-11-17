@@ -22,10 +22,10 @@ Feel free to contribute to it and submit a pull request.
 Simply run the command below:
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/verebes1/totalshell/master/total-shell.sh)"
+curl -fsSL https://raw.githubusercontent.com/verebes1/totalshell/master/total-shell.sh | bash"
 ```
 
-If you would rather see what you're running then you can download `total-shell.sh` make it executable using `chmod +x total-shell.sh` and next running it `./total-shell.sh`.
+If you would rather see what you're running then you can download `total-shell.sh` make it executable using `chmod +x total-shell.sh` and next run it `./total-shell.sh`.
 
 Or you can clone the repo using:
 
